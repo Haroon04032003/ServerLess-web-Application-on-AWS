@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1 {
+	margin: 0;
+}
+
+#date-time {
+	font-size: 0.9rem;
+	color: #ccc;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+input[type="text"] {
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+button {
+	padding: 5px 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 5px;
+}
+
+button:hover {
+	background-color: #555;
+}
+
+#greeting {
+	margin-top: 20px;
+	font-size: 1.2rem;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+#greeting.show {
+	opacity: 1;
+}
+
+#reset-btn {
+	background-color: #555;
+}
+
+.counter-number {
+	background-color: #444;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+#greeting-history {
+	margin-top: 20px;
+}
+
+#greeting-history h2 {
+	margin-bottom: 10px;
+}
+
+#history-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+#history-list li {
+	background-color: #1a8092;
+	padding: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+#toggle-theme {
+	background-color: transparent;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 1.5rem;
+}
+
+#location, #weather {
+	margin-top: 20px;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #ddd;
+}
