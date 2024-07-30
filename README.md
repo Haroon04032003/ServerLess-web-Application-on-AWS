@@ -4,7 +4,7 @@
 
 ### Project Description:
 
-In this project, you will build a serverless web application using AWS Lambda, DynamoDB, and S3. The application will allow users to create, read, update, and delete (CRUD) items from a DynamoDB table. Additionally, the application features a greeting system, a view counter, dark mode toggle, user location, weather information, and greeting history.
+In this project, i have build a serverless web application using AWS Lambda, DynamoDB, and S3. The application will allow users to create, read, update, and delete (CRUD) items from a DynamoDB table. Additionally, the application features a greeting system, a view counter, dark mode toggle, and greeting history.
 
 ### Project Architecture:
 
@@ -19,9 +19,9 @@ In this project, you will build a serverless web application using AWS Lambda, D
 
 ### Expected Outcome:
 
-Upon completing the project, you will have a working serverless web application hosted on AWS. \
-You will have hands-on experience building a serverless application using AWS Lambda, DynamoDB, S3, CloudFront. \
-Additionally, you will have experience working with AWS services and integrating them to build a complete solution.
+Upon completing the project, i have a working serverless web application hosted on AWS. \
+this project has helped me hands-on experience building a serverless application using AWS Lambda, DynamoDB, S3, CloudFront. \
+Additionally, i will have experience working with AWS services and integrating them to build a complete solution.
 
 
 
